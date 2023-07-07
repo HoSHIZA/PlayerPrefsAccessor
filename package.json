@@ -1,0 +1,21 @@
+﻿{
+  "name": "com.shizogames.player_prefs_accessor",
+  "version": "1.0.0",
+  "displayName": "PlayerPrefs Accessor",
+  "description": "Utility to get a list of all PlayerPrefs from the device.",
+  "unity": "2020.3",
+  "documentationUrl": "",
+  "dependencies": {},
+  "optionalDependencies": {},
+  "keywords": [
+    "Shizo",
+    "ShizoGames",
+    "PlayerPrefs",
+    "Player Preferences"
+  ],
+  "author": {
+    "name": "ShizoGames",
+    "email": "hoshiza78@gmail.com",
+    "url": "https://github.com/HoSHIZA"
+  }
+}
