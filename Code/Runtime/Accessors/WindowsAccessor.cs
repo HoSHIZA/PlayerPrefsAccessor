@@ -65,7 +65,7 @@ namespace ShizoGames.PlayerPrefsAccessor.Accessors
 
             return playerPrefsEntries;
 #else
-            throw new System.NotSupportedException("This accessor is not supported on the current platform");
+            return null;
 #endif
         }
     }
