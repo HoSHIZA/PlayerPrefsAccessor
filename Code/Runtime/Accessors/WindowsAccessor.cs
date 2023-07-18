@@ -11,7 +11,7 @@ namespace ShizoGames.PlayerPrefsAccessor.Accessors
     {
         public override List<PPrefsEntry> Retrieve()
         {
-#if !(UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN) && !(NET_STANDARD || NET_STANDARD_2_0 || NET_STANDARD_2_1)
+#if (UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN) && !(NET_STANDARD || NET_STANDARD_2_0 || NET_STANDARD_2_1)
 
 #if UNITY_EDITOR_WIN
             var registryKey = Microsoft.Win32.Registry.CurrentUser
@@ -34,8 +34,8 @@ namespace ShizoGames.PlayerPrefsAccessor.Accessors
 
                 switch (registryKey.GetValue(key))
                 {
-                    case int:
-                    case long:
+                    case int _:
+                    case long _:
                     {
                         if (PlayerPrefs.GetInt(keyName, -1) == -1 && PlayerPrefs.GetInt(keyName, 0) == 0)
                         {
@@ -52,7 +52,7 @@ namespace ShizoGames.PlayerPrefsAccessor.Accessors
 
                         break;
                     }
-                    case byte[]:
+                    case byte[] _:
                     {
                         var value = PlayerPrefs.GetString(keyName);
                         
