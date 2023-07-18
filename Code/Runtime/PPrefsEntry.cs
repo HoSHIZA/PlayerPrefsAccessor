@@ -1,4 +1,4 @@
-﻿namespace ShizoGames.PlayerPrefsAccessor
+﻿namespace KDebugger.Plugins.ShizoGames.PlayerPrefsAccessor
 {
     public readonly struct PPrefsEntry
     {

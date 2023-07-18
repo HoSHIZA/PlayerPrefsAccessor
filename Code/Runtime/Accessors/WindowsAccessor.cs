@@ -5,7 +5,7 @@
 using UnityEngine;
 #endif
 
-namespace ShizoGames.PlayerPrefsAccessor.Accessors
+namespace KDebugger.Plugins.ShizoGames.PlayerPrefsAccessor.Accessors
 {
     public sealed class WindowsAccessor : PPrefsAccessorBase
     {

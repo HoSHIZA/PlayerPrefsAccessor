@@ -2,12 +2,12 @@
 
 #if UNITY_STANDALONE_OSX
 using System;
-using ShizoGames.PlayerPrefsAccessor.Utility;
+using KDebugger.Plugins.ShizoGames.PlayerPrefsAccessor.Utility;
 using System.IO;
 using UnityEngine;
 #endif
 
-namespace ShizoGames.PlayerPrefsAccessor.Accessors
+namespace KDebugger.Plugins.ShizoGames.PlayerPrefsAccessor.Accessors
 {
     public sealed class OSXAccessor : PPrefsAccessorBase
     {

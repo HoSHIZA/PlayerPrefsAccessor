@@ -32,7 +32,7 @@ using System.IO;
 using System.Text;
 using System.Xml;
 
-namespace ShizoGames.PlayerPrefsAccessor.Utility
+namespace KDebugger.Plugins.ShizoGames.PlayerPrefsAccessor.Utility
 {
     public static class Plist
     {

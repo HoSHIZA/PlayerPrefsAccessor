@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ShizoGames.PlayerPrefsAccessor
+namespace KDebugger.Plugins.ShizoGames.PlayerPrefsAccessor
 {
     public abstract class PPrefsAccessorBase
     {
